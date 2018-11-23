@@ -15,8 +15,8 @@ sys.path.append(os.path.join(ROOT_DIR, 'models'))
 sys.path.append(os.path.join(ROOT_DIR, 'utils'))
 #import provider
 #import tf_util
-import modelnet_dataset
-import modelnet_h5_dataset
+#import modelnet_dataset
+#import modelnet_h5_dataset
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--num_gpus', type=int, default=1, help='How many gpus to use [default: 1]')
